@@ -79,7 +79,10 @@
 }
 
 @media screen and (max-width: 1280px) {
-
+    #banner img{
+        max-width: 600px;
+        max-height: 500px;
+    }
     #cta {
         margin-top: 2%;
     }
