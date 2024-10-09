@@ -1,0 +1,89 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 110px);
+    position: relative;
+}
+
+
+#cta {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 4rem;
+    color: var(--color-neutral-1);;
+}
+
+#cta .title span {
+    color: var(--color-primary-6);
+}
+
+#cta .description {
+    font-size: 1.2rem;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: var(--color-neutral-1);;
+}
+
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    
+}
+
+#banner img {
+    height: 90%;
+    width: fit-content;
+    max-width: 880px;
+    border-radius: 50% 20% / 10% 40%;
+    background: linear-gradient(360deg, var(--color-primary-2), var(--color-primary-1)); /* Degradê */
+    background-size: cover; /* Garante que a imagem ocupe todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+  
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img{
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #cta_buttons {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    #cta {
+        margin-top: 2%;
+    }
+    #cta .title {
+        font-size: 2.8rem;
+    }
+}

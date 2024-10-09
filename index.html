@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>RESOLVAKI</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="index.html">
+                <img src="./assets/img/logo_4.png" id="nav-logo" alt="logo" width="180" height="47">
+            </a>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#creditors">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn-default-invert">Entrar</button>
+                <button class="btn-default">Cadastrar</button>
+            </div>
+            
+            <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#creditors">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default-invert">Entrar</button>
+            <button class="btn-default">Cadastrar</button>
+            
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    Negocie suas dívidas hoje mesmo, 
+                    <span>economize até 99%!</span>
+                </h1>
+                <p class="description">
+                    Consulte suas dívidas de forma gratuita 
+                    e aproveite com as melhores condições para você.
+                </p>
+                <div id="cta_buttons">
+                    <input class="input-cpf-cnpj" type="text" id="cpfCnpj" maxlength="18" placeholder="Digite seu CPF ou CNPJ">
+                    <button class="btn-default">Consulte Grátis</button>
+                </div>
+            </div>
+            <div id="banner">
+                <img id="banner_img" src="./assets/img/banner_IA_1.png" alt="banner">
+            </div>
+        </section>
+
+        <section id="creditors">
+            <h2 class="section-title">Confira os parceiros com quem você pode negociar</h2>
+            <h3 class="section-subtitle">Obtemos as melhores ofertas e condições de parcelamento para você!</h3>
+        
+           <div id="creditors-slider">
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_1.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_2.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_3.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_4.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_5.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_6.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_7.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_8.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_9.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_10.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_11.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_12.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_1.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_2.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_3.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_4.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_5.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_6.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_7.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_8.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_9.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_10.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_11.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_12.png" alt="creditor_img"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_13.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_14.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_15.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_16.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_17.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_18.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_19.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_20.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_21.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_22.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_23.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_24.png" alt="creditor_img"/>
+                        </div>
+                    
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_13.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_14.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_15.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_16.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_17.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_18.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_19.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_20.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_21.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_22.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_23.png" alt="creditor_img"/>
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/img/creditors/creditor_24.png" alt="creditor_img"/>
+                        </div>
+                    </div>
+                </div>
+           </div> 
+        </section>
+
+        <section id="testimonials">
+            <img src="./assets/img/feedback_AI_4.png" id="testimonial_people" alt="testimonial_people">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <a href="https://maps.app.goo.gl/ffd3mzBddJPpiAXb9" class="feedback-avatar-link">
+                            <div class="feedback-avatar-container">
+                                <img src="./assets/img/avatars/avatar_1.png" class="feedback-avatar"  alt="avatar">
+                                <img src="./assets/img/avatars/google.svg" class="overlay-image" alt="avatar">
+                            </div>
+                        </a>
+
+                        <div class="feedback-content">
+                            <p class="feedback-name">
+                                Rafael Ribeiro Vittay
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            
+                            <p>
+                                "Empresa competente, fiel com os seus ideiais, e responsáveis na hora de ensinar sobre cada carteira na qual você vai trabalhar..."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <a href="https://maps.app.goo.gl/JJYoxEQZmaxxiWjh9" class="feedback-avatar-link">
+                            <div class="feedback-avatar-container">
+                                <img src="./assets/img/avatars/avatar_2.png" class="feedback-avatar"  alt="avatar">
+                                <img src="./assets/img/avatars/google.svg" class="overlay-image" alt="avatar">
+                            </div>
+                        </a>
+
+                        <div class="feedback-content">
+                            <p class="feedback-name">
+                               Jonas Nascimento
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Empresa compromissada e transparente com seus funcionários. Com oportunidades de crescimento/desenvolvimento em diversas áreas..."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <a href="https://maps.app.goo.gl/yitscDecgGpcQPsL6" class="feedback-avatar-link">
+                            <div class="feedback-avatar-container">
+                                <img src="./assets/img/avatars/avatar_3.png" class="feedback-avatar"  alt="avatar">
+                                <img src="./assets/img/avatars/google.svg" class="overlay-image" alt="avatar">
+                            </div>
+                        </a>
+                        <div class="feedback-content">
+                            <p class="feedback-name">
+                                Amanda Rodrigues
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+    
+                            <p>
+                                "A qualidade da empresa é realmente algo a ser reconhecido. O tratamento, cuidado e o respeito dos atendentes é algo de se elogiar.
+                                Obrigado GRB por ter resolvido a maior das minhas dores de cabeça."
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <a  class="feedback-more" href="https://g.co/kgs/B4tqvrS"  target="_blank">
+                    <button class="btn-default" >
+                        Ver mais avaliações
+                    </button>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="./assets/img/wave_2.svg" alt="wave">
+        <div id="footer_items">   
+            <span id="copyright">
+                <p>&copy 2024 GRB. Todos os direitos reservados.</p>
+            </span>
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/cookies.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
