@@ -1,4 +1,13 @@
-# LANDINGPAGE RESOLVAKI
+<div style="text-align: center">
+    <h1 style="font-size: 24px">LANDINGPAGE RESOLVAKI</h1>
+
+   
+   <img src="https://github.com/user-attachments/assets/cf6a5979-3463-40b4-b630-a752515aad13" alt="Screenshot of Example MacBook." style="width: 50%; max-width: 400px;"/>
+    
+   <img src="https://github.com/user-attachments/assets/cc86d42f-254b-4563-ab8f-6b906d593894" alt="iPhone-13-PRO-MAX-127 0 0 1" style="width: 15%; max-width: 200px;"/>
+</div>
+
+
 
 ## Descrição do Projeto
 
