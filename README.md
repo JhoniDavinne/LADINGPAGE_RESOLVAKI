@@ -1,5 +1,5 @@
 <div style="text-align: center">
-    <h1 style="font-size: 24px">LANDINGPAGE RESOLVAKI</h1>
+    <h1 style="font-size: 24px">RESOLVAKI</h1>
 
    
    <img src="https://github.com/user-attachments/assets/cf6a5979-3463-40b4-b630-a752515aad13" alt="Screenshot of Example MacBook." style="width: 50%; max-width: 400px;"/>
